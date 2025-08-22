@@ -1,17 +1,7 @@
 {
-"name": "PEACE-HUB",
-"description": "Javascript WhatsApp bot made by Peacemaker",
-"logo": "https://files.catbox.moe/5m0i6t.jpg",
-"keywords": ["PEACE-HUB"],
-"success_url": "/",
-
-"stack": "container",
-
-"env": {
-"SESSION_ID": {
-"description": "Put the session-id here.",
+"description": "Put the session-id",
 "required": true,
-"value": ""
+"value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0JlREVSbmVwNDUvOGF6SHI5YzY1V2R3VGFpNG1qT2R3bkhMdjg3V2hHND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVXlMTHk1OFRVMWN6RjUzRnRmR2xicTZ0QWlNbUZERlZETUwwYU94V0xEQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnQnNQQm02UmhIOFQ3TGd3dG56R2RPMFVZc29mVHdLeWN2ZmlKcThBMkhjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJacGxJQTNxOGZuTDNuaFY0L3ZNZktKeXpTckpMQytFSDhzMTZZVTE0aFNBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldDWEpKdnEyWktyWW9SbzFBdnBlelA0RFdKdmludmRORkY2N1YweTNhWGM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjF6RnIvTi96SGMzOWdma2VIUi9IbzVVcnhuZ2VpYzBBWW1pRisxUkxKbUU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0JVYzZtWE9xZHdLWG96ZzcvaVVxNTVyMUZhRVZZWk1JRmI1RFh2bzRtRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOUcxcU03cWJ3NkZGRys0ZVUwZ3kyZUFYYWVsUlphVXRJbTluTEE0K1dFVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVVTHg4b0JBVnFXNllRTGp4RkM2ZS9FcHZkRWt3MWpZaGlzdVFQTGVaK2V6bVgvQmpXS1BSY1c3SERaRnFvMGhpOWZiaDN3aFluci9xakc0cFhwb0JRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjI5LCJhZHZTZWNyZXRLZXkiOiJIKzhZRU10ekMwaHhTVkNWWGhFbHBmeEUwdHlWa2RSeThwVHdQSTA0dEc0PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwNTYzMDkwOTZAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQUNCRDQ2RDAzNDMyMzUwNzdBMTczRDAxQTBFMjg2NDEifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc1NTg5OTAwN30seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODA1NjMwOTA5NkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJFMDFFNEFDRTczNjgwRDY4RjVCNUVEMDgyMzM2MDlGRCJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzU1ODk5MDA3fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJZQTZNOTg4QSIsIm1lIjp7ImlkIjoiMjM0ODA1NjMwOTA5NjoxM0BzLndoYXRzYXBwLm5ldCIsImxpZCI6IjEyNDAwMDU3MTIzMjMyNzoxM0BsaWQiLCJuYW1lIjoi77iPIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQVDZyWlFERU4vSW84VUdHQVFnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiIxTGVtQlplbk5kZ1BsOUM5S2cvRkNTZVIwU3ZGNXRtV05CSDlpeHd0YjNZPSIsImFjY291bnRTaWduYXR1cmUiOiJCMWJVWUhQcnVSQW1EbGpBVGRVR2lnYVdGMkFUMmFQM0swQnRuZXdTNE9MaTRLcEo0RGxTUHN1OUwxYndKdm4vN0tHd2ZSc2NrbkErWmNRRTYvaGlBZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoibDZ2cXcxc1kzalVseloyYXhwdWE5TkY0VkdJeWdweEFER2hXT3R6blNvcitmSnd0djlNaU1Ud0hmZm5ydFVNZVFwT201WEVMSEdpa0VURERTTmt6QUE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ4MDU2MzA5MDk2OjEzQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmRTM3BnV1hwelhZRDVmUXZTb1B4UWtua2RFcnhlYlpsalFSL1lzY0xXOTIifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBMElCUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc1NTg5ODk5MiwibGFzdFByb3BIYXNoIjoiM2dQVUprIiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFNanoifQ=="
 },
 
 "STICKER_NAME": {  
@@ -23,7 +13,7 @@
 "PREFIX": {  
   "description": "paste your bot prefix note! Don't apply null prefix.",  
   "required": false,  
-  "value": "."  
+  "value": "*"  
 },  
   
 "MODE": {  
@@ -87,21 +77,21 @@
 "OWNER_NAME": {  
   "description": "Type Bot Owner Name.",  
   "required": true,  
-  "value": "Peacemaker"
+  "value": "Big mummy"
 
 },
 
 "OWNER_NUMBER": {  
   "description": "put the owner number for bot.",  
   "required": true,  
-  "value": "254752818245"  
+  "value": "2348056309096"  
 
 },   
 
 "BOT_NAME": {  
   "description": "Type here the bot name.",  
   "required": true,  
-  "value": "ᴘᴇᴀᴄᴇ ʜᴜʙ"  
+  "value": "BIG MUMMY XD"  
 
   },   
 
@@ -115,7 +105,7 @@
  "ANTI_LINK_KICK": {  
   "description": "Make it true if you want bot auto remove group link.",  
   "required": false,  
-  "value": "false"  
+  "value": "true"  
     
 },  
   
@@ -140,13 +130,13 @@
  "DESCRIPTION": {  
   "description": "add caption for menu and other",  
   "required": true,  
-  "value": "*> 🚀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴇᴀᴄᴇ ʜᴜʙ"  
+  "value": "*> 🚀 By Big mummy"  
 },  
 
   "DELETE_LINKS": {  
   "description": "remove links from group automatically without removing member",  
   "required": false,  
-  "value": "false"  
+  "value": "true"  
 },  
   
 "AUTO_RECORDING": {  
@@ -189,7 +179,7 @@
 "ADMIN_EVENTS": {  
   "description": "make it true if want know who promote or demote a member .",  
   "required": false,  
-  "value": "false"  
+  "value": "true"  
 },  
 
 "WELCOME": {  
